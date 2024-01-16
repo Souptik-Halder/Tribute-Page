@@ -1,0 +1,29 @@
+#image{
+    max-width: 250px;
+    height: 400px;
+}
+body{
+    background: rgb(116,109,230);
+    background: linear-gradient(13deg, rgba(116,109,230,1) 2%, rgba(144,158,240,1) 27%, rgba(143,254,225,0.6306897759103641) 53%, rgba(53,203,220,1) 78%, rgba(47,200,220,1) 93%, rgba(22,186,219,1) 100%);
+    text-align: center;
+}
+#img-caption{
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Rubik Mono One', monospace;
+}
+#title{
+    font-family: 'Acme', sans-serif;
+    font-family: 'Rubik Mono One', monospace;
+}
+
+#tribute-info{
+    font-family: 'Roboto Mono', monospace;
+}
+body>image{
+    align-items: center;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
